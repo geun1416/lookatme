@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+ <!-- css -->
+ <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/notice.css">
+
+
+ <!-- js -->
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/common.js"></script>
+
+ <title>jieun</title>
+ </head>
+<body>
+
+<div class="container">
+  <div class="header">
+      <img src="images/i_arrow.png" class="icon_back" onclick="location.href='index.html'">
+      <span class="header_ti">알림목록</span>
+  </div>
+  <div class="content">
+    <div class="select_bar">
+      <select name="test" class="select_st">
+          <option value="전체">전체</option>
+          <option value="긴급메세지">긴급메세지</option>
+          <option value="초대메세지">초대메세지</option>
+      </select>
+    </div>
+    <div class="list_wrap">
+      <div class="list_notice">
+        <div class="list_notice_icon">
+          <div><img src="images/i_emergency.png" class="img"></div>
+        </div>
+        <div class="list_info">
+          <div class="list_txt"><span class="txt_red">긴급메세지</span></div>
+          <div class="list_txt">홍길동님의 긴급메세지입니다.</div>
+          <div class="list_txt_day">2021-04-05 13:12</div>
+        </div>
+      </div>
+      <div class="list_notice">
+        <div class="list_notice_icon">
+          <div><img src="images/i_invite.png" class="img"></div>
+        </div>
+        <div class="list_info">
+          <div class="list_txt"><span class="txt_blue">초대메세지</span></div>
+          <div class="list_txt">홍길동님의 초대메세지입니다.</div>
+          <div class="list_txt_day">2021-04-05 13:12</div>
+        </div>
+      </div>
+      <div class="list_notice">
+        <div class="list_notice_icon">
+          <div><img src="images/i_notice.png" class="img"></div>
+        </div>
+        <div class="list_info">
+          <div class="list_txt"><span class="txt_bk">알림메세지</span></div>
+          <div class="list_txt">홍길동님의 알림메세지입니다. 홍길동님의 알림메세지입니다. 홍길동님의 알림메세지입니다.</div>
+          <div class="list_txt_day">2021-04-05 13:12</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer_nav">
+    <div class="footer_nav_list"><img src="images/i_footer01_bk.png" class="img"><!--<img src="images/i_footer_left_bk.png" class="img">--></div>
+    <div class="footer_nav_list"><img src="images/i_footer02.png" class="img"><!--<img src="images/i_footer_right.png" class="img">--></div>
+    <div class="footer_nav_list"><img src="images/i_footer03_bk.png" class="img"></div>
+    <div class="footer_nav_list"><img src="images/i_footer04_bk.png" class="img"></div>
+    <div class="footer_nav_list"><img src="images/i_footer05_bk.png" class="img"></div>
+  </div>
+</div>
+
+</body>
+
+</html>
